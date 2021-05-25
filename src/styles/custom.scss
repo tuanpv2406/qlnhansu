@@ -1,0 +1,133 @@
+.MuiTableRow-root .MuiTableCell-head {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.MuiTableRow-root .MuiTableCell-root {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.MuiTableRow-root .MuiTableCell-paddingNone {
+    padding: 0px;
+}
+
+.movie-card {
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.movie-card:hover {
+-webkit-transform: scale(1.03);
+transform: scale(1.03);
+box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.movie-content {
+padding: 5px 0 0 0;
+margin: 0;
+overflow: hidden;
+white-space: nowrap;
+// display: flex;
+}
+
+.movie-content-header,
+.movie-info {
+display: table;
+width: 100%; 
+}
+
+.movie-title {
+margin: 0;
+}
+
+.movie-title_grid {
+font-size: 16px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+margin-bottom: 0px !important;
+}
+
+.info-section_grid label{
+width:100%;
+font-size: 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: inherit;
+margin: 0;
+display: block;
+text-overflow: ellipsis;
+// text-align: right;
+// float: right;
+}
+
+.MuiIconButton-root {
+    cursor: pointer;
+}
+
+.MuiIcon-fontSizeLarge {
+    font-size: 25px !important;
+}
+
+.icon-button {
+    text-align: center;
+}
+
+.asset_department {
+    background-color: #fff;
+    padding: 8px;
+    height: auto;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.none_wrap {
+    white-space: nowrap !important;
+}
+
+.validator-form-scroll-dialog {
+    overflow-y: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.logo-login{
+    max-width: 400px !important;
+}
+.logo-login img{
+    width: 100% !important;
+}
+// .logo-menu{
+//     max-width: 100px !important;
+// }
+// .logo-menu img{
+//     width: 100% !important;
+// }
+
+.ct-footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px 5px 0 0;
+    
+    .ct-footer-left{
+        width: 40%;
+        padding-top: 30px;
+        padding-left: 20px;
+        font-size: 2rem;
+        font-family: Verdana;
+        font-weight: 800;
+    }
+    .ct-footer-right{
+        width: 40%;
+        padding-top: 5px;
+        padding-left: 20px;
+        font-family: cursive;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
